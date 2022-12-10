@@ -30,7 +30,7 @@ with open(csv_filename, 'w') as csvfile:
         # instantiating an object (rf) with the RoboflowOak module
         # API Key: https://docs.roboflow.com/rest-api#obtaining-your-api-key
         rf = RoboflowOak(model="warren-friction-weld-wire", confidence=0.4, overlap=0.5,
-        version="1", api_key="zByfy0GB9wFAa7p8DVFo", rgb=True,
+        version="1", api_key="YOUR_API_KEY", rgb=True,
         depth=False, device=None, blocking=True)
 
         # Running our model and displaying the video output with detections
