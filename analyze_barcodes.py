@@ -6,7 +6,7 @@ from roboflow import Roboflow
 from pylibdmtx.pylibdmtx import decode
 from PIL import Image
 
-rf = Roboflow(api_key="zByfy0GB9wFAa7p8DVFo")
+rf = Roboflow(api_key="API_KEY")
 project = rf.workspace().project("warren-friction-weld-wire")
 model = project.version(3).model
 
